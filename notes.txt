@@ -1,0 +1,74 @@
+pseudo classes
+box model
+grid
+flex
+position properties
+gradient
+
+pseudoclasses:
+
+used to add styles to selectors
+selector:pseudoclass{properties}
+specially works with anchor tags.
+
+1.link
+2.visited
+3.hover
+4.active
+
+love hate=> remember
+
+box model:
+margin: is used to create a space around the element outside the defined borders
+padding: is used to create a space around the element inside the defined borders
+border
+
+margin => always works clockwise direction
+margin:top
+margin:right
+margin:bottom
+margin:left
+
+shorhand property: all the properties in one line
+
+border: it should give a defined outside for an element
+it will lies b/w padding and margin
+it sh0uld always gives along with soild, width and style.
+
+gradient:
+to apply background colors as an image (multiple colors)
+1.linear(it will apply the mul colors line by line) 
+2. radial(it will apply the mul colors radially) 
+circle, ellipse(H & W)
+
+grid:
+
+alignment purpose of website
+2 dimensional
+=>rows and columns
+always used along with display properties.
+
+grid container=> it is defined all rows and columns
+grid layout=> output page of grid
+grid items=> all individual element of grid(box)
+grid cell=> particular box 
+grid line=> line b/w rows and column items
+grid gap=> space b/w rows and columns
+
+flex:
+
+alignment in different 
+by using flex we can align only rows or columns
+cant align both @ same time
+default =>rows
+once flex property appiled break tag not work
+
+display=> flex, block
+
+flex-direction:
+row 
+column
+row-reverse
+colum-reverse
+
+
