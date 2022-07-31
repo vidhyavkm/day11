@@ -18,7 +18,7 @@ specially works with anchor tags.
 
 love hate=> remember
 
-box model:
+box model: every element has it own box model.
 margin: is used to create a space around the element outside the defined borders
 padding: is used to create a space around the element inside the defined borders
 border
@@ -63,12 +63,43 @@ cant align both @ same time
 default =>rows
 once flex property appiled break tag not work
 
+align to use rows or columns
+
 display=> flex, block
 
 flex-direction:
 row 
 column
 row-reverse
-colum-reverse
+column-reverse
+
+flex-wrap: it is used to fix the content inside the items or containers
+
+nowrap=> default
+wrap=> we should not use height=> improper alignment
+can apply in rows as well as column
+
+flex: justify-content:=> all the contents are aligned horizontally
+
+flex-start=> all the contents are at start point(default)
+flex-end=> all the contents are at end point
+center=> all the contents aligned at center 
+space-around=> gives equal space to all items 
+space-between=> only create space betweenthe items
+space-evenly=> gives even space between all the itmes
+
+align-items:=> for vertical alignments 
+it is dependent on 
+flex-start=> 
+flex-end=> 
+center=>  
+space-around=> 
+space-between=> 
+space-evenly
+
+
+
+
+
 
 

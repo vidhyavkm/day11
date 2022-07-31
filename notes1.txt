@@ -1,0 +1,37 @@
+Media queries
+overflow css
+font icons
+dropbox
+
+MediaQueries:
+@mediascreen and(){code}
+
+overflow:
+contents come outside the item or container
+
+hidden=> it will hide the overflowing contents
+visible=> as default
+scroll=> it will add a scroll bar in vertical and horizontal
+auto=> same like scroll, but it add scroll only if needed
+
+position property:
+
+static=> default
+
+relative=>it is used when we need to position the html element.
+relative is normal to its position
+they are affected left/right/top/bottom
+document flow is get affected
+space is created for them in document.
+
+absolute:
+this is positioned wrt parent element
+they are affected left/right/top/bottom
+space is not created for them in document.
+document flow is get affected
+absolute always written with relative.
+
+fixed=> it will not move when the other elements get moving
+sticky=> it will move upto certain limit , and when it reaches out of document it will stick and will not move.
+
+
